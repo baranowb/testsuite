@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<profilesXml xmlns="http://maven.apache.org/PROFILES/1.0.0"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:schemaLocation="http://maven.apache.org/PROFILES/1.0.0 http://maven.apache.org/xsd/profiles-1.0.0.xsd">
+    <profiles>
+        <profile>
+            <id>local</id>
+            <activation>
+                <activeByDefault>false</activeByDefault>
+            </activation>
+            <properties>
+                <jboss.home>/home/carlo/work/jbossas/branches/JBPAPP_5_2/build/output/jboss-5.2.0.Branch</jboss.home>
+            </properties>
+        </profile>
+    </profiles>
+</profilesXml>
